@@ -119,4 +119,8 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="3" attachedevent="true" class="scripts.ActorEvents_3" classname="scripts.ActorEvents_3" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" name="ActorEvents_3" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>

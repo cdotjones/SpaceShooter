@@ -49,7 +49,7 @@
             </s>
         </snippets>
     </actor>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="-1" fixedrot="true" fric="0.2" gid="4" id="3" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Alien Saucer" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="4" id="3" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Alien Saucer" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
         <snippets>
             <s enabled="true" id="0">
                 <prop id="2147483647" list="0" val="thisactor"/>
@@ -73,7 +73,7 @@
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="4" name="Alien Saucer" readable="false" shared="false">
-        <anim across="8" down="1" durations="100,100,100,100,100,100,100,100" height="64" id="0" loop="true" name="Animation 0" numframes="8" originx="32" originy="32" sync="false" version="1" width="512">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
