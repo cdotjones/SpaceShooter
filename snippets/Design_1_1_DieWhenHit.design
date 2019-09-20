@@ -3,17 +3,23 @@
     <group eventID="1" id="0">
         <collide comment="false" x="15" y="15">
             <group eventID="-1" id="-1">
-                <comment-long comment="false" x="26" y="45">
+                <set-game-val-3 comment="false" x="26" y="45">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </plus>
+                </set-game-val-3>
+                <comment-long comment="false" x="26" y="75">
                     <int id="0" val="See &amp;apos;Explode on Death&amp;apos; behavior to see the logic for HandleDeath."/>
                 </comment-long>
-                <shout comment="false" x="26" y="125">
+                <shout comment="false" x="26" y="155">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="HandleDeath"/>
                 </shout>
-                <die comment="false" x="26" y="152">
+                <die comment="false" x="26" y="182">
                     <ACTOR eid="lastcollided" id="0"/>
                 </die>
-                <die comment="false" x="26" y="179">
+                <die comment="false" x="26" y="209">
                     <ACTOR eid="this" id="0"/>
                 </die>
             </group>

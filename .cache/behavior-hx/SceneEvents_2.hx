@@ -72,7 +72,7 @@ class SceneEvents_2 extends SceneScript
 	{
 		super();
 		nameMap.set("time", "_time");
-		_time = 0;
+		_time = 0.0;
 		nameMap.set("StartButton", "_StartButton");
 		_StartButton = false;
 		

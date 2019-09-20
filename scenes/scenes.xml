@@ -2,6 +2,6 @@
 <scenes>
     <scene desc="" format="4.0.1" id="1" name="Level 1"/>
     <scene desc="" format="4.0.1" id="2" name="Start"/>
-    <scene desc="" format="4.0.1" id="3" name="winstate"/>
-    <scene desc="" format="4.0.1" id="4" name="losestate"/>
+    <scene desc="" format="4.0.1" id="3" name="Winner"/>
+    <scene desc="" format="4.0.1" id="4" name="loser"/>
 </scenes>

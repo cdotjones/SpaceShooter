@@ -64,6 +64,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 class ActorEvents_1 extends ActorScript
 {
 	public var _Identity:String;
+	public var _lives:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
@@ -71,6 +72,8 @@ class ActorEvents_1 extends ActorScript
 		super(actor);
 		nameMap.set("Identity", "_Identity");
 		_Identity = "";
+		nameMap.set("lives", "_lives");
+		_lives = 0;
 		
 	}
 	

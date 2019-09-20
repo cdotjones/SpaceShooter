@@ -80,6 +80,7 @@ class Design_1_1_DieWhenHit extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
+				Engine.engine.setGameAttribute("score", ((Engine.engine.getGameAttribute("score") : Float) + 1));
 				/* See 'Explode on Death' behavior to see the logic for HandleDeath. */
 				actor.shout("_customEvent_" + "HandleDeath");
 				recycleActor(actor.getLastCollidedActor());

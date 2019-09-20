@@ -3,7 +3,10 @@
     <group eventID="1" id="0">
         <event-mouse-enter-exit-actor comment="false" x="6" y="18">
             <group eventID="1" id="-1">
-                <scene-change-through comment="false" x="17" y="45">
+                <set-game-val-3 comment="false" x="17" y="45">
+                    <int id="0" val="0"/>
+                </set-game-val-3>
+                <scene-change-through comment="false" x="17" y="65">
                     <scene eid="1" id="0"/>
                     <int id="1" val="1"/>
                     <int id="2" val=".25"/>

@@ -146,14 +146,8 @@
                         <scene-change-through comment="false" x="37" y="1175">
                             <scene eid="4" id="0"/>
                             <int id="1" val="1"/>
-                            <int id="2" val=".25"/>
+                            <int id="2" val=".3"/>
                         </scene-change-through>
-                        <scene-reload-new comment="false" x="37" y="1202">
-                            <int id="0" val="0"/>
-                            <int id="1" val="0.3"/>
-                            <int id="2" val="0"/>
-                            <int id="3" val="0.3"/>
-                        </scene-reload-new>
                     </group>
                     <moreeq comment="false" id="0" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
@@ -171,14 +165,5 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="-1">
-        <eq comment="false" x="701" y="532">
-            <int id="0" val=""/>
-            <int id="1" val="2"/>
-        </eq>
-        <eq comment="false" x="453" y="626">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </eq>
-    </group>
+    <group eventID="1" id="-1"/>
 </groups>

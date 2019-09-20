@@ -12,7 +12,9 @@
         <actor a="0.0" aid="1" c="false" group="3" id="19" name="StartButton 1" order="0" sx="1.0" sy="1.0" x="220" y="393" z="0"/>
         <actor a="0.0" aid="2" c="false" group="3" id="21" name="QuitButton 2" order="1" sx="0.65" sy="0.65" x="462" y="-1" z="0"/>
     </actors>
-    <snippets/>
+    <snippets>
+        <s enabled="false" id="28"/>
+    </snippets>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
 </scene>
