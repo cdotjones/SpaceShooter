@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="25" name="1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="12" fixedrot="true" fric="0.2" gid="4" id="7" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.1" name="Alien Cruiser" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
         <snippets>
             <s enabled="true" id="0">
@@ -83,9 +82,9 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <background atlasID="0" desc="" durations="100,100" dx="-0.0" dy="-0.0" height="480" id="18" name="Desert Background" numframes="2" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <music atlasID="0" desc="" id="15" loop="true" name="Explode" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music atlasID="0" desc="" id="16" loop="true" name="Fire" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="100,100" dx="-0.0" dy="-0.0" height="480" id="18" name="level 1 background" numframes="2" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="29" name="lose" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="11" ignoreg="false" inertia="0.01" ldamp="0.0" mass="0.1" name="Particle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="12" static="false">
         <snippets>
@@ -177,6 +176,7 @@
             <poly data="4,0,0,200,0,200,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="25" name="Start Screen" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="StartButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
         <snippets/>
     </actor>
