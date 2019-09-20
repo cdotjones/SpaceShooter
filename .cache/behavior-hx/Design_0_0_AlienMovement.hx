@@ -133,6 +133,8 @@ at a constant rate. */
 				/* They reached the end. You die. */
 				if((actor.getY() >= (getSceneHeight() - 159)))
 				{
+					startShakingScreen(5 / 100, 1.5);
+					switchScene(GameModel.get().scenes.get(4).getID(), null, createSlideUpTransition(.25));
 					reloadCurrentScene(createFadeOut(0.3), createFadeIn(0.3));
 				}
 			}

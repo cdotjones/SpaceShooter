@@ -139,7 +139,16 @@
                 </comment-long>
                 <if comment="false" x="26" y="1112">
                     <group eventID="-1" id="-1">
-                        <scene-reload-new comment="false" x="37" y="1155">
+                        <shake-start comment="false" x="37" y="1155">
+                            <int id="0" val="5"/>
+                            <int id="1" val="1.5"/>
+                        </shake-start>
+                        <scene-change-through comment="false" x="37" y="1175">
+                            <scene eid="4" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val=".25"/>
+                        </scene-change-through>
+                        <scene-reload-new comment="false" x="37" y="1202">
                             <int id="0" val="0"/>
                             <int id="1" val="0.3"/>
                             <int id="2" val="0"/>
